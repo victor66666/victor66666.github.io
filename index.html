@@ -1,25 +1,191 @@
-<!DOCTYPE html>
-<html>
- <head>
-   <title>Victor's Profile</title>
-   <link rel="stylesheet" href="css/styles.css">
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/projects”>Projects</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am Victor!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   </footer>
- </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Victor Yan is a senior software engineer in Vancouver building Android kiosk systems, full-stack web interfaces, and reliable device integrations."
+    >
+    <title>Victor Yan | Senior Software Engineer</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Victor Yan home">VY</a>
+      <nav aria-label="Primary navigation">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Software Engineer in Vancouver</p>
+          <h1>Software for web, mobile, and connected devices.</h1>
+          <p class="hero-text">
+            I build Android kiosk systems, modern web interfaces, cloud APIs, and
+            reliable integrations for real-world hardware.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#experience">View Experience</a>
+            <a class="button secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Career highlights">
+          <p class="card-label">Current Focus</p>
+          <h2>Reliable kiosk platforms</h2>
+          <p>
+            Full-stack development for transit and payment systems, from frontend UI to
+            serverless reporting APIs and peripheral integrations.
+          </p>
+          <dl class="stats">
+            <div>
+              <dt>10+</dt>
+              <dd>Deployments shipped</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>cities, 2 countries</dd>
+            </div>
+            <div>
+              <dt>2024</dt>
+              <dd>Joined Caracal</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Toolbox</p>
+          <h2>Languages, frameworks, and systems</h2>
+        </div>
+        <div class="toolbox-groups" aria-label="Languages and tools">
+          <section class="tool-group" aria-labelledby="mobile-systems">
+            <h3 id="mobile-systems">Mobile and Systems</h3>
+            <div class="logo-grid">
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android logo"><figcaption>Android</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin logo"><figcaption>Kotlin</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo"><figcaption>Java</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift logo"><figcaption>Swift</figcaption></figure>
+            </div>
+          </section>
+          <section class="tool-group" aria-labelledby="frontend-tools">
+            <h3 id="frontend-tools">Frontend</h3>
+            <div class="logo-grid">
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript logo"><figcaption>TypeScript</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo"><figcaption>JavaScript</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo"><figcaption>React</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" alt="Svelte logo"><figcaption>Svelte</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass logo"><figcaption>SCSS</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite logo"><figcaption>Vite</figcaption></figure>
+            </div>
+          </section>
+          <section class="tool-group" aria-labelledby="cloud-data">
+            <h3 id="cloud-data">Cloud and Data</h3>
+            <div class="logo-grid">
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo"><figcaption>AWS</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js logo"><figcaption>Node.js</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL logo"><figcaption>PostgreSQL</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite logo"><figcaption>SQLite</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase logo"><figcaption>Firebase</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy logo"><figcaption>NumPy</figcaption></figure>
+            </div>
+          </section>
+          <section class="tool-group" aria-labelledby="engineering-tools">
+            <h3 id="engineering-tools">Engineering Tools</h3>
+            <div class="logo-grid">
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C logo"><figcaption>C</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ logo"><figcaption>C++</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C Sharp logo"><figcaption>C#</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker logo"><figcaption>Docker</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo"><figcaption>Git</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" alt="CMake logo"><figcaption>CMake</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" alt="Gradle logo"><figcaption>Gradle</figcaption></figure>
+              <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="Webpack logo"><figcaption>Webpack</figcaption></figure>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Selected roles and impact</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <div class="company-logo">
+              <img src="assets/logos/caracal.jpg" alt="Caracal Technologies logo">
+            </div>
+            <div class="timeline-meta">
+              <p>2024 - Present</p>
+              <p>Vancouver, Canada</p>
+            </div>
+            <div>
+              <h3>Senior Software Engineer, Caracal Technologies</h3>
+              <p>
+                Own full-stack development for Android-based kiosk systems, including web UI,
+                application logic, device control, payment and peripheral integrations, and
+                AWS-backed reporting workflows.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="company-logo">
+              <img src="assets/logos/huawei.svg" alt="Huawei logo">
+            </div>
+            <div class="timeline-meta">
+              <p>2021 - 2023</p>
+              <p>Beijing, China</p>
+            </div>
+            <div>
+              <h3>Software Engineer, Huawei Technologies</h3>
+              <p>
+                Built platform-specific SDK test applications, communication features, and
+                phone system app functionality across Android, Windows, iOS, and HarmonyOS.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="company-logo">
+              <img src="assets/logos/zebra.jpg" alt="Zebra Technologies logo">
+            </div>
+            <div class="timeline-meta">
+              <p>2018 - 2019</p>
+              <p>Toronto, Canada</p>
+            </div>
+            <div>
+              <h3>Software Engineer, Zebra Technologies</h3>
+              <p>
+                Automated RF measurement workflows and created visualization and tracking
+                tools using C#, Python, OpenCV, and measurement hardware integrations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education">
+        <div class="education-card">
+          <img src="assets/logos/utoronto.jpg" alt="University of Toronto logo">
+          <div>
+          <p class="eyebrow">Education</p>
+          <h2>University of Toronto</h2>
+          <p>Applied Science, Computer Engineering</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <p class="eyebrow">Contact</p>
+        <h2>Connect with me on LinkedIn.</h2>
+        <a class="button primary" href="https://www.linkedin.com/in/victor-jitong-yan/">LinkedIn Profile</a>
+      </section>
+    </main>
+  </body>
 </html>
